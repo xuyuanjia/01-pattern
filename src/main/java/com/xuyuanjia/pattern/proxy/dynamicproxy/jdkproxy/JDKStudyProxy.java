@@ -1,4 +1,4 @@
-package com.xuyuanjia.pattern.proxy.jdk;
+package com.xuyuanjia.pattern.proxy.dynamicproxy.jdkproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

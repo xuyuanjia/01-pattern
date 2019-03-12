@@ -1,4 +1,4 @@
-package com.xuyuanjia.pattern.proxy.jdk;
+package com.xuyuanjia.pattern.proxy.dynamicproxy.jdkproxy;
 
 /**
  * @ClassName StudyProxyTest
