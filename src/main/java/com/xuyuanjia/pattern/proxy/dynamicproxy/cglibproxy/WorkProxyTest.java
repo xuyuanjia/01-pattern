@@ -3,7 +3,7 @@ package com.xuyuanjia.pattern.proxy.dynamicproxy.cglibproxy;
 /**
  * @ClassName WorkProxyTest
  * @Description TODO
- * @Author xuyuanjia
+ * @Author xuyuanjia(马拉松de流程逻辑)
  * @Date 2019/3/12 上午10:49
  * @Version 1.0
  **/

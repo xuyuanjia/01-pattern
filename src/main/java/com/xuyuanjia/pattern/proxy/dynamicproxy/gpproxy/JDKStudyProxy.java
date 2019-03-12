@@ -1,6 +1,5 @@
-package com.xuyuanjia.pattern.proxy.dynamicproxy.jdkproxy;
+package com.xuyuanjia.pattern.proxy.dynamicproxy.gpproxy;
 
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
@@ -12,17 +11,18 @@ import java.lang.reflect.Proxy;
  * @Version 1.0
  **/
 
-public class JDKStudyProxy implements InvocationHandler {
+public class JDKStudyProxy implements GPInvocationHandler {
 
     private People target;
 
     public Object getInstance(People target){
         this.target = target;
         Class clazz = target.getClass();
-        return Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(),this);
+        return GPProxy.newProxyInstance(new GPClassLoader(), clazz.getInterfaces(),this);
     }
 
 
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         //被代理方法前面加点东西
         before();

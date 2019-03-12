@@ -1,4 +1,4 @@
-package com.xuyuanjia.pattern.proxy.dynamicproxy.jdkproxy;
+package com.xuyuanjia.pattern.proxy.dynamicproxy.gpproxy;
 
 /**
  * @ClassName Xuyuanjia
