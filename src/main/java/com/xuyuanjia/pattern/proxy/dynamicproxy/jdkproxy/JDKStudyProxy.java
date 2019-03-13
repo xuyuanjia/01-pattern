@@ -22,7 +22,7 @@ public class JDKStudyProxy implements InvocationHandler {
         return Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(),this);
     }
 
-
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         //被代理方法前面加点东西
         before();

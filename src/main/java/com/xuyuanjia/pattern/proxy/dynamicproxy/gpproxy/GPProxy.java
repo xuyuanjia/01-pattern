@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @ClassName GPProxy
- * @Description TODO
+ * @Description 咕泡代理类
  * @Author xuyuanjia(马拉松de流程逻辑)
  * @Date 2019/3/12 上午11:29
  * @Version 1.0
