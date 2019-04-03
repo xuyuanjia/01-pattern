@@ -28,6 +28,7 @@ public class LazyInnerClassSingleton {
 
 
     public static void main(String[] args) {
-        new LazyInnerClassSingleton();
+        LazyInnerClassSingleton singleton = LazyInnerClassSingleton.getInstance();
+        System.out.println(singleton);
     }
 }
